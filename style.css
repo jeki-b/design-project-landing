@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: nunito sans, arial;
+
+}
+body * {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.button {
+background: #E3B873;
+box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+border-radius: 2px;
+outline: 0;
+border: 0;
+padding: 13px 33px;
+color: white;
+text-transform: uppercase;
+font-style: italic;
+}
+.logo {
+  color: #E3B873;
+}
+.header {
+  background-color: black;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  height: 83px;
+  margin 0 auto;
+  align-items: center;
+}
+.header-navigator {
+  list-style: none;
+  display: flex;
+}
+.header-navigator__item {
+  margin-right: 24px;
+  text-transform: uppercase;
+}
+.header-navigator__item a {
+  text-decoration: none;
+  color: white;
+}
+.tel {
+  color: #E3B873
+  font-size: 11px;
+  line-height: 15px;
+  text-align: right;
+  text-decoration-line: underline;
+}
+
+.about {
+  background-image: url('./images/hero.jpg');
+  background-size: cover;
+  height: 707px;
+  padding-top: 194px;
+}
+.about::before {
+  content: '';
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.proposal {
+  position: relative;
+  z-index: 1;
+}
+.title {
+  margin: 0;
+  font-family: Yeseva One, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 53px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  height: 105px;
+  margin: 0;
+}
+.proposal-title {
+  color: #E3B873;
+}
+.proposal {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 36px;
+  color: #FFFFFF;
+  margin-bottom: 5%;
+}
+.text {
+  max-width: 520px;
+}
+.proposal-calc {
+  background: #E3B873;
+  border: 1px solid #FFFFFF;
+  margin-right: 20px;
+  margin-bottom: 3%;
+  font-size: 13px;
+  color: #FFFFFF;
+  height: 51px;
+}
+
+.proposal-calc:hover {
+  background: #E3B873;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+  border-radius: 2px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.proposal-subm {
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #FFFFFF;
+  margin-right: 20px;
+  margin-bottom: 3%;
+  font-size: 13px;
+  color: #FFFFFF;
+  height: 51px;
+}
+.proposal-subm:hover {
+  background: #E3B873;
+  border-radius: 2px;
+  box-sizing: border-box;
+  cursor: pointer;
+
+}
